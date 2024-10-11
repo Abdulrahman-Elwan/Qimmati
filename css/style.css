@@ -149,6 +149,36 @@ body{
 
 
 
+/* style whatsapp */
+.whats{
+    width: 50px;
+    position: fixed;
+    margin-top: 85vh;
+    right: 25px;
+    z-index: 20;
+    padding: 10px;
+    background-color: #38d572ee;
+    outline: 5px solid #075e54;
+    animation: whatsapp 0.9s linear infinite ;
+    border-radius: 50%;
+}
+.whats .fa-whatsapp{
+    font-size: 40px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+@keyframes whatsapp {
+    0%{ 
+        outline: 5px solid #075e54;
+    } 
+    50% { 
+        outline: 15px solid #075e54c4;
+    } 
+    100% { 
+        outline: 30px solid #075e5425;
+    }
+}
 
 
 
