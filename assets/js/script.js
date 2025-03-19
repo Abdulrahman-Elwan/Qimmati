@@ -180,7 +180,7 @@ let translations = {
     care2: "العناية الشخصية",
     follow: "تابعنا",
     bottom_footer_texr_1: "جميع الحقوق محفوظه لدي شركة <a href=\"qimmati.sa\"><b>قمتي</b></a>",
-    bottom_footer_texr_2: "موثّق في منصة الأعمال",
+    bottom_footer_text_2: "موثّق في منصة الأعمال",
     tax_number: "الرقم الضريبي",
 
     // *************** About page ***************
