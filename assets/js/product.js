@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             breakpoints: {
                 768: { slidesPerView: 4 },
-                480: { slidesPerView: 1 }
+                48: { slidesPerView: 1 }
             }
         });
     }
