@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Qimmati</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/imge/LOGO.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cairo:wght@200..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/product.css">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header">
+    <div class="topbar d-flex align-items-center">
+      <div class="d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <div class="cart">
+            <ul>
+              <!-- أيقونة السلة مع عدد المنتجات -->
+              <li class="cart-icon">
+                <a href="cart.html" id="cartButton">
+                  <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cartCount">0</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="social-links align-items-center">
+          <div class="marquee-content">
+            <span data-key="tape">Long-lasting cleanliness, refreshing fragrance! 🏡✨ Shop now for the best cleaning
+              products at amazing prices!</span>
+            <span data-key="tape">Long-lasting cleanliness, refreshing fragrance! 🏡✨ Shop now for the best cleaning
+              products at amazing prices!</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="branding d-flex align-items-center fixed-top-nav">
+      <div class="container position-relative d-flex align-items-center justify-content-between rotat">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/imge/name-logo.png" class="space" alt="">
+          <span data-key="qimmati_nav"></span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul class="rotat">
+            <li><a href="#hero" data-key="home"></a></li>
+            <li><a href="about.html" class="active" data-key="about"></a></li>
+            <li><a href="producte.html" data-key="product"></a></li>
+            <!-- Dropdown لتحديد اللغة -->
+            <li class="nav-item">
+              <select id="languageSelector" class="form-control">
+                <option value="ar" data-key="ar"></option>
+                <option value="en" data-key="en"></option>
+              </select>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-5 justify-content-between hero-div rotat">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2>
+              <span class="accent" data-key="qimmati_nav"></span>
+              <span data-key="qimmati_hero_title"></span>
+            </h2>
+            <p data-key="qimmati_hero_p" class="textp_pp"></p>
+            <div class="d-flex">
+              <a class="btn-get-started" data-key="qimmati_hero_bottom" id="openFormBtn"></a>
+            </div>
+
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/imge/hero_1.png" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/imge/hero_2.png" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/imge/hero_3.png" class="d-block" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="data">
+        <div class="container">
+          <div class="box">
+            <i class="fa-solid fa-truck"></i>
+            <div class="text-data">
+              <h2 data-key="Delivery1">Delivery</h2>
+              <p data-key="Deliveryp">Across the KSA</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-headset"></i>
+            <div class="text-data">
+              <h2 data-key="Support">24/7 Support</h2>
+              <p data-key="Supportp">Customer support</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-brands fa-product-hunt"></i>
+            <div class="text-data">
+              <h2><span class="counter" data-target="100">0</span>
+                <h2 data-key="Products">Products</h2>
+              </h2>
+              <p data-key="Productsp">Available</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-star"></i>
+            <div class="text-data">
+              <h2 data-key="Trusted">Trusted</h2>
+              <p data-key="Trustedp">Authentic products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <section class="product_index_page section">
+      <div class="container" id="productsContainer">
+        <!-- سيتم إنشاء الأقسام ديناميكيًا عبر JavaScript -->
+      </div>
+    </section>
+
+    <!-- Product Section -->
+
+    <section id="product" class="product">
+      <div class="container">
+        <div class="container section-title sec-product-title sec-product-title22 position-relative z-1 "
+          data-aos="fade-up">
+          <h2 data-key="deal">Qimmati DEAL<br></h2>
+          <p data-key="deal_p" class="textp_pp">
+            Discover our range of high-quality products designed to enhance your daily life with unpqimmatilleled
+            freshness
+            and care.
+          </p>
+        </div>
+
+        <div class="vect-sec-1 mb-5 pt-5">
+          <div class="containe">
+            <div class="row gy-4 product_all position-relative z-1" id="products-container">
+            </div>
+          </div>
+        </div>
+
+        <div class="product_imge_topBottom">
+          <img class="product_imge_top" src="assets/imge/top.png" alt="">
+          <img class="product_imge_bottom" src="assets/imge/bottom.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- /Product Section -->
+
+    <!-- Testimonials Section -->
+
+    <section id="testimonials" class="testimonials section pb-5">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-key="clients_Say"></h2>
+        <p data-key="clients_Say_p"></p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/imge/sara.png" class="testimonial-img" alt="">
+                <h3>Sqimmatih Al-Fahad</h3>
+                <h4>Homeowner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-key="client1_Say"></span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/imge/Personal_man1.svg" class="testimonial-img" alt="">
+                <h3>Ahmed Al-Mutairi</h3>
+                <h4>Business Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-key="client2_Say"></span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/imge/fatimah.png" class="testimonial-img" alt="">
+                <h3>Fatimah Al-Harbi</h3>
+                <h4>Mother</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-key="client3_Say"></span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/imge/Personal_man2.svg" class="testimonial-img" alt="">
+                <h3>Mohammed Al-Otaibi</h3>
+                <h4>Facility Manager</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-key="client4_Say"></span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/imge/layla.png" class="testimonial-img" alt="">
+                <h3>Layla Al-Rashid</h3>
+                <h4>Retailer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span data-key="client5_Say"></span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- /Testimonials Section -->
+
+  </main>
+
+
+
+  <!-- النافذة المنبثقة -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <!-- هنا يتم عرض الفورم -->
+      <form id="contactFormContact" class="contactFormContact rotat" novalidate>
+        <div class="form-row text_right d-flex">
+          <div class="form-group col-md-6">
+            <label for="firstName" data-key="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" required>
+            <div class="error-message" id="firstNameError" style="display:none;" data-key="firstNameErr"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lastName" data-key="LastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" required>
+            <div class="error-message" id="lastNameError" style="display:none;" data-key="LastNameErr"></div>
+          </div>
+        </div>
+        <div class="form-row text_right d-flex">
+          <div class="form-group col-md-6">
+            <label for="email" data-key="Email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="error-message" id="emailError" data-key="emailError" style="display:none;"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="phoneNumber" data-key="phoneNumber">Phone</label>
+            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" required>
+            <div class="error-message" id="phoneNumberError" style="display:none;" data-key="phoneNumberError">
+            </div>
+          </div>
+        </div>
+        <div class="form-group text_right">
+          <label for="subject" data-key="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject" required>
+          <div class="error-message" id="subjectError" data-key="subjectError" style="display:none;"></div>
+        </div>
+        <div class="form-group text_right">
+          <label for="message" data-key="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          <div class="error-message" id="messageError" data-key="messageError" style="display:none;"></div>
+        </div>
+        <button type="submit" onclick="sendMail()" class="btn btn-primary btn-block" data-key="SendMessage">Send
+          Message</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <footer id="footer" class="footer accent-background">
+    <img class="imge_footer" src="assets/imge/imge_footer-top.png" alt="">
+    <div class="container rotat">
+      <!-- Company Information -->
+      <div class="footer-col text_right">
+        <h4 data-key="company" class="textp_ff">company</h4>
+        <ul>
+          <li><a href="index.html" data-key="home">Home</a></li>
+          <li><a href="about.html" data-key="about">about us</a></li>
+          <li><a href="categories.html" data-key="product">Sope</a></li>
+          <li><a href="contact.html" data-key="contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Help Section -->
+      <div class="footer-col text_right">
+        <h4 data-key="get" class="textp_ff">Get Help</h4>
+        <ul>
+          <li><a href="#" data-key="FAQ">FAQ</a></li>
+          <li><a href="#" data-key="shipping">Shipping</a></li>
+          <li><a href="#" data-key="returns">Returns</a></li>
+          <li><a href="#" data-key="payment">Payment options</a></li>
+        </ul>
+      </div>
+
+      <!-- Online Shop -->
+      <div class="footer-col text_right">
+        <h4 data-key="online" class="textp_ff">Online Shop</h4>
+        <ul>
+          <li><a href="producte.html" data-key="Detergents">Detergents</a></li>
+          <li><a href="producte.html" data-key="care1">Home care</a></li>
+          <li><a href="producte.html" data-key="care2">Personal care</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr>
+    <div class="bottom_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col bss">
+            <a class="aaa" href="https://eauthenticate.saudibusiness.gov.sa/inquiry?certificateRefID=0000162947"
+              target="_blank">
+              <span data-key="bottom_footer_texr_2"></span>
+              <img src="assets/imge/bottom_footer_texr_2.webp" alt="">
+            </a>
+          </div>
+          <div class="col">
+            <span data-key="bottom_footer_texr_1"></span>
+          </div>
+          <div class="col">
+            <h5 class="textp_ff" data-key="tax_number"></h5>
+            <span style="text-align: center;">310386563800003</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://Kit.fontawesome.com/2de93562ba.js" crossorigin="anonymous"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/product.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/validation.js"></script>
+
+
+</body>
+
+</html>
