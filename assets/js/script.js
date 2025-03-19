@@ -64,7 +64,7 @@ let translations = {
     care2: "Personal care",
     follow: "Follow us",
     bottom_footer_texr_1: "All rights reserved to <a href=\"qimmati.sa\"><b>Qimmati</b></a>",
-    bottom_footer_text_2: "Verified on the Business Platform",
+    bottom_footer_texr_2: "Verified on the Business Platform",
     tax_number: "Tax number",
 
 
@@ -180,7 +180,7 @@ let translations = {
     care2: "العناية الشخصية",
     follow: "تابعنا",
     bottom_footer_texr_1: "جميع الحقوق محفوظه لدي شركة <a href=\"qimmati.sa\"><b>قمتي</b></a>",
-    bottom_footer_text_2: "موثّق في منصة الأعمال",
+    bottom_footer_texr_2: "موثّق في منصة الأعمال",
     tax_number: "الرقم الضريبي",
 
     // *************** About page ***************
