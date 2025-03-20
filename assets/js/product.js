@@ -679,7 +679,7 @@ function addToCart(product) {
 
 // عرض المنتجات بناءً على اللغة المختارة
 function renderProducts() {
-    const lang = localStorage.getItem('selectedLanguage') || 'en';
+    const lang = localStorage.getItem('selectedLanguage') || 'ar';
     const searchTerm = searchInput.value.toLowerCase();
 
     const filteredProducts = productsPage.filter(product => {
